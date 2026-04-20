@@ -211,3 +211,17 @@ JWT_SECRET=your-super-secret-key
 STRIPE_SECRET_KEY=sk_test_...
 STRIPE_PUBLIC_KEY=pk_test_...
 FRONTEND_URL=http://localhost:3000
+# 1. Push code to GitHub
+git init
+git add .
+git commit -m "Initial PickApp commit"
+git remote add origin https://github.com/ykadioui00-wq/pickapp.git
+git push -u origin main
+
+# 2. Go to https://vercel.com/new
+# 3. Import your GitHub repository
+# 4. Add environment variables:
+#    - MONGODB_URI
+#    - JWT_SECRET
+#    - STRIPE_SECRET_KEY
+# 5. Click Deploy
