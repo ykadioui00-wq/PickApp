@@ -1,0 +1,11 @@
+pickapp/
+├── frontend/          (React app)
+├── api/              (Express as serverless)
+│   ├── index.js
+│   ├── auth.js
+│   ├── listings.js
+│   ├── orders.js
+│   └── utils/
+├── package.json
+├── vercel.json
+└── README.md
