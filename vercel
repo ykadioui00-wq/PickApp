@@ -206,3 +206,8 @@ module.exports = router;
     "dotenv": "^16.0.3"
   }
 }
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/pickapp
+JWT_SECRET=your-super-secret-key
+STRIPE_SECRET_KEY=sk_test_...
+STRIPE_PUBLIC_KEY=pk_test_...
+FRONTEND_URL=http://localhost:3000
